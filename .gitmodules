@@ -2,6 +2,6 @@
     path = module
     url = git@github.com:berezhinskiy/git-submodule-module.git
 [submodule "module-dev"]
-    path = module-dev
-    url = git@github.com:berezhinskiy/git-submodule-module.git
-    branch = dev
+	path = module-dev
+	url = git@github.com:berezhinskiy/git-submodule-module.git
+	branch = dev
