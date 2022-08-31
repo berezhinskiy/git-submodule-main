@@ -18,3 +18,6 @@ cd module
 git checkout <commitid>
 git commit -m 'Updated submodule' module
 ```
+
+### ⚠️ Potential problem with pointing to the branch name
+After cloning the repo, submodules will be switched into a detached HEAD state. If you make changes in the submodule branch and commit, Git will create the commit and leave submodules with a detached HEAD.
