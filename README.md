@@ -28,3 +28,7 @@ After cloning the repo, submodules will be switched into a detached HEAD state. 
 HEAD detached at f74a7bb
 nothing to commit, working tree clean
 ```
+
+`submodule.<name>.update` and `submodule.<name>.branch` parameters in `.gitmodules` config can solve this potential problem. 
+
+More info is [here](https://git-scm.com/docs/git-submodule#Documentation/git-submodule.txt-update--init--remote-N--no-fetch--no-recommend-shallow-f--force--checkout--rebase--merge--referenceltrepositorygt--depthltdepthgt--recursive--jobsltngt--ltpathgt82308203)
