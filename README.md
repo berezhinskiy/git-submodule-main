@@ -2,8 +2,8 @@
 
 Example of a product repository which uses git submodule
 
-- [`module`](module/) folder pointed to a specific git hash of another git repo
-- [`module-dev`](module-dev/) folder pointed to `dev` branch of another git repo
+- `module` folder pointed to a specific git hash of another git repo
+- `module-dev` folder pointed to `dev` branch of another git repo
 
 ### Init module
 
